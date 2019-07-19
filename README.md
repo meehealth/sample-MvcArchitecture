@@ -41,3 +41,4 @@ Code released under the <a href="https://github.com/chsakell/mvcarchitecture/blo
 ## Development Environment
 
 - `.NET Framework` 4.5.1
+- Visual Studio 2013 
