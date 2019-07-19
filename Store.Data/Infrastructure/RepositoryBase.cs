@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store.Data.Infrastructure
 {
     public abstract class RepositoryBase<T> where T : class
     {
         #region Properties
+
         private StoreEntities dataContext;
         private readonly IDbSet<T> dbSet;
 
@@ -24,7 +23,8 @@ namespace Store.Data.Infrastructure
         {
             get { return dataContext ?? (dataContext = DbFactory.Init()); }
         }
-        #endregion
+
+        #endregion Properties
 
         protected RepositoryBase(IDbFactory dbFactory)
         {
@@ -33,6 +33,7 @@ namespace Store.Data.Infrastructure
         }
 
         #region Implementation
+
         public virtual void Add(T entity)
         {
             dbSet.Add(entity);
@@ -76,7 +77,6 @@ namespace Store.Data.Infrastructure
             return dbSet.Where(where).FirstOrDefault<T>();
         }
 
-        #endregion
-    
+        #endregion Implementation
     }
 }

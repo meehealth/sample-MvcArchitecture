@@ -1,15 +1,16 @@
 # ASP.NET MVC Solution Architecture – Best Practices
 [Blog post](http://chsakell.com/2015/02/15/asp-net-mvc-solution-architecture-best-practices/)
-<ol>
-<li>Entity Framework Code First development</li>
-<li>Generic Repository Pattern</li>
-<li>Dependency Injection using Autofac framework</li>
-<li>Automapper</li>
-</ol>
 
-<a href="https://chsakell.files.wordpress.com/2015/02/mvc-architecture-01.png" target="_blank"><img src="https://chsakell.files.wordpress.com/2015/02/mvc-architecture-01.png?w=700" alt="mvc-architecture-01" class="alignnone size-full wp-image-2638"></a>
+## Features
 
-<h3 style="font-weight:normal;">Follow chsakell's Blog</h3>
+- Entity Framework Code First development
+- Generic Repository Pattern
+- Dependency Injection using Autofac framework
+- Automapper
+
+![mvc-architecture-01](https://chsakell.files.wordpress.com/2015/02/mvc-architecture-01.png)
+
+## Follow chsakell's Blog
 <table id="gradient-style" style="box-shadow:3px -2px 10px #1F394C;font-size:12px;margin:15px;width:290px;text-align:left;border-collapse:collapse;" summary="">
 <thead>
 <tr>
@@ -33,5 +34,10 @@
 </tr>
 </tbody>
 </table>
-<h3>License</h3>
+
+## License
 Code released under the <a href="https://github.com/chsakell/mvcarchitecture/blob/master/licence" target="_blank"> MIT license</a>.
+
+## Development Environment
+
+- `.NET Framework` 4.5.1
