@@ -1,4 +1,4 @@
-# ASP.NET MVC Solution Architecture – Best Practices
+# `ASP.NET MVC` Solution Architecture – Best Practices
 [Blog post](http://chsakell.com/2015/02/15/asp-net-mvc-solution-architecture-best-practices/)
 
 ## Features
@@ -41,4 +41,4 @@ Code released under the <a href="https://github.com/chsakell/mvcarchitecture/blo
 ## Development Environment
 
 - `.NET Framework` 4.5.1
-- Visual Studio 2013 
+- Visual Studio 2013 or above
